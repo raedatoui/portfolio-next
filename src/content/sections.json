@@ -1,0 +1,36 @@
+{
+    "header": {
+        "name": "Raed",
+        "contentPath": "content/header.json",
+        "view": "Header",
+        "listId": "header"
+    },
+    "bio": {
+        "name": "About",
+        "contentPath": "content/bio.json",
+        "view": "Bio"
+    },
+    "languages": {
+        "name": "Languages",
+        "contentPath": "content/languages.json",
+        "view": "StuffList",
+        "listId": "languages"
+    },
+    "tech": {
+        "name": "Tech",
+        "contentPath": "content/tech.json",
+        "view": "StuffList",
+        "listId": "tech"
+    },
+    "employers": {
+        "name": "Employers",
+        "contentPath": "content/employers.json",
+        "view": "StuffList",
+        "listId": "employers"
+    },
+    "projects": {
+        "name": "Work",
+        "contentPath": "content/work.json",
+        "view": "Work"
+    }
+}

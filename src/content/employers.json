@@ -1,0 +1,60 @@
+[
+    {
+        "section": "music",
+        "title": "Music Industry",
+        "description": "Experience working with major music labels and distributors.",
+        "experience": [
+            {
+                "name": "Sony Music",
+                "link": "https://www.sonymusic.com/",
+                "dates": "July 2022 - Present",
+                "logo": "/assets/images/employers/sme-logo.svg",
+                "logo_style": "theme-svg"
+            },
+            {
+                "name": "The Orchard",
+                "link": "https://www.theorchard.com/",
+                "dates": "Sept 2017 - July 2022",
+                "logo": "/assets/images/employers/orchard.png"
+            }
+        ]
+    },
+    {
+        "section": "agencies",
+        "title": "Creative Agencies",
+        "description": "Experience working with digital agencies on a variety of client projects.",
+        "experience": [
+            {
+                "name": "Huge",
+                "link": "https://www.hugeinc.com/",
+                "dates": "May 2014 - Sept 2017",
+                "logo": "/assets/images/employers/huge.png"
+            },
+            {
+                "name": "Stink",
+                "link": "https://www.stinkstudios.com/",
+                "dates": "Sep 2013 - Mar 2014",
+                "logo": "/assets/images/employers/stinkstudios-logo.png",
+                "logo_style": "invert"
+            },
+            {
+                "name": "Your Majesty",
+                "link": "https://yourmajesty.co/",
+                "dates": "Aug 2011 - Mar 2013",
+                "logo": "/assets/images/employers/yourmajesty-2023-brand-still-03.jpg"
+            },
+            {
+                "name": "Pentagram",
+                "link": "https://www.pentagram.com/",
+                "dates": "Oct 2010 - Jul 2011",
+                "logo": "/assets/images/employers/pentagram.svg",
+                "logo_style": "theme"
+            },
+            {
+                "name": "The Map Office",
+                "dates": "Mar 2010 - Sep 2010",
+                "logo": "/assets/images/employers/map-office.png"
+            }
+        ]
+    }
+]

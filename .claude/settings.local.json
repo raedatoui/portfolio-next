@@ -1,0 +1,16 @@
+{
+    "permissions": {
+        "allow": [
+            "Bash(tree:*)",
+            "Bash(npm install:*)",
+            "Bash(npx tailwindcss:*)",
+            "Bash(./node_modules/.bin/tailwindcss:*)",
+            "mcp__chrome-devtools__evaluate_script",
+            "mcp__chrome-devtools__navigate_page",
+            "mcp__chrome-devtools__wait_for",
+            "mcp__chrome-devtools__take_snapshot"
+        ],
+        "deny": [],
+        "ask": []
+    }
+}

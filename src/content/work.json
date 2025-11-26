@@ -1,0 +1,804 @@
+{
+    "typedef": {
+        "label": "Fun",
+        "description": "freelance, collaborations, personal projects",
+        "work": {
+            "minair": {
+                "title": "The Minair Report",
+                "thumb": {
+                    "image": "/assets/images/thumbs/no-bg/minair.jpg",
+                    "invert": false
+                },
+                "description": "Website for air quality sensor. 2023 W3 Silver Winner, 2023 Webby Honoree in the Weird category",
+                "links": [
+                    {
+                        "label": "view site",
+                        "href": "https://minair.me"
+                    },
+                    {
+                        "label": "view source",
+                        "href": "https://github.com/minair-affair/minair-report"
+                    }
+                ],
+                "year": "2021 - present",
+                "tech": "React, Material UI, HighCharts, Three.js, GLSL, Flask, Raspberry Pi, Purple Air  API, Firebase hosting",
+                "gallery": [
+                    {
+                        "image": "/assets/images/projects/minair/light-poster.jpg",
+                        "type": "video",
+                        "asset": "https://storage.googleapis.com/www.minair.me/videos/minair-seminair.mp4",
+                        "width": 1280,
+                        "height": 720
+                    }
+                ]
+            },
+            "sal": {
+                "title": "Better Call Sal",
+                "thumb": {
+                    "image": "/assets/images/thumbs/no-bg/sal.png",
+                    "invert": false
+                },
+                "description": "Website for sound mixer Sal Barra.",
+                "links": [
+                    {
+                        "label": "view site",
+                        "href": "https://bettercallsal.biz"
+                    },
+                    {
+                        "label": "view source",
+                        "href": "https://github.com/raedatoui/bettercallsal-multiverse"
+                    }
+                ],
+                "year": "2016 - present",
+                "tech": "Next.js, Three.js, Unity, Web Audio, WebGL, GLSL"
+            },
+            "pierre": {
+                "title": "Pierre Emmanuel Fillet",
+                "thumb": {
+                    "image": "/assets/images/thumbs/no-bg/pierre.png",
+                    "invert": false
+                },
+                "description": "Website for artist Pierre Emmanuel Fillet. Custom solution for viewing gigapixel artworks using a multi-tile interactive viewer.",
+                "links": [
+                    {
+                        "label": "view site",
+                        "href": "https://storage.googleapis.com/pierreemmanuelfillet.com/index.html"
+                    },
+                    {
+                        "label": "view source",
+                        "href": "https://github.com/raedatoui/pef"
+                    }
+                ],
+                "year": 2012,
+                "tech": "Jekyll, ImageMagick, Ruby, IIPMooViewer"
+            },
+            "ica": {
+                "title": "The Institute of Contemporary Art - UPenn",
+                "thumb": {
+                    "image": "/assets/images/thumbs/no-bg/ica.png",
+                    "invert": true
+                },
+                "tech": "Ruby on Rails, Solr, Spine.js, Coffeescript, Susy CSS, graph theory, api design,",
+                "description": "Website for The Institute of Contemporary Art at the University of Pennsylvania.<br>Conceived and built at <a href='http://www.othermeans.us/' target='_blank'>Other Means</a>, in collaboration with&nbsp;<a href='http://ja.ckjennin.gs/' target='_blank'>Jack Jennings</a>.",
+                "links": [
+                    {
+                        "label": "view site",
+                        "href": "http://icaphila.org/"
+                    }
+                ],
+                "year": "Nov 2012 - Aug 2015"
+            },
+            "16beaver": {
+                "title": "16 Beaver Group",
+                "description": "16 Beaver is the address of a space initiated/run by artists since 1999. Since that time, it has served as place where those involved in art, politics, education, as well as a multiplicity of other contexts and fields of activity could discover and develop a common place to share research, questions, understandings, concerns, and struggles. Thus, it has been an open place to share, present, produce, and discuss a variety of artistic/cultural/economic/political projects. It has also been a site where discussions can lead to actions and action can be discussed and rethought.<br><br>I helped re-platforming and migrating a 10 year old installation of Movable Type to Wordpress. The Movable Type installation ran out of disk space and memory for any operations beyond reading content from cache. It was unsusable as it became impossible to publish or reindex any of its content forcing maintainers to make pages manually. The biggest challenge was installing a development replica of the Movable Type instance from 2003 on a mac in 2010 using perl and php.",
+                "links": [
+                    {
+                        "label": "view site",
+                        "href": "http://16beavergroup.org"
+                    }
+                ],
+                "thumb": {
+                    "image": "/assets/images/thumbs/no-bg/beaver.png",
+                    "invert": true
+                },
+                "year": "2012 - present",
+                "tech": "Wordpress, Movable Type, scripting for content migration"
+            },
+            "christa": {
+                "title": "Mnemonic Devices",
+                "thumb": {
+                    "image": "/assets/images/thumbs/no-bg/mnemonic.jpg",
+                    "invert": false
+                },
+                "role": "research assistant, application development and architecture, prototyping",
+                "description": "Series of technology driven art installations developed under the direction of Christa Erickson. This body of work was part of Christa's solo faculty exhibition at Stony Brook University Staller Center for the Arts.",
+                "links": [
+                    {
+                        "label": "view project documentation",
+                        "href": "http://emedia.art.sunysb.edu/christa/mdevices.html"
+                    }
+                ],
+                "year": 2007,
+                "sub": [
+                    {
+                        "title": "Seesaw",
+                        "description": "<i>See/Saw</i> is part of <i>MNEMONIC DEVICES</i>. The most prominent component of the work, this twelve-foot seesaw, literally requires two peoples' participation, even cooperation. The seesaw acts like a giant video switcher: the way the participants 'play' determines the sequence, direction, and speed of images projected on an adjacent screen. Imagery is shot on super8 film, lending a home movie feel, and depicting closely cropped gestures between people. With no one at 'play', the screen contains images of 'leaders' collaged from TV, film, and video games that span this century.",
+                        "tech": "Arduino, potentiometer attached to seesaw, analog signal treatment, Max MSP Jitter",
+                        "video": "http://emedia.art.sunysb.edu/christa/mdevicesdoc/video/handhold.mov"
+                    },
+                    {
+                        "title": "Whirl",
+                        "description": "In <i>Whirl</i> memory and nostalgia is revealed as a warped phenomena. The viewer's breath is mapped such that blowing a pinwheel controls the playback of both record player and video, warping nostalgic sound from a found record of old rhyming favorites and imagery of wildly physical play on turn of the century (19th to 20th) circle swing.",
+                        "tech": "Arduino, piezo attached to pinwheel, analog signal treatment, Max MSP Jitter",
+                        "video": "http://emedia.art.sunysb.edu/christa/movs/EricksonWhirl.mov"
+                    },
+                    {
+                        "title": "Debt Reducer",
+                        "description": "As the U.S. National debt has recently surpassed $16 trillion, living to excess and beyond our means increasingly embodies and distresses our culture.<i>Debt Reducer</i> invites participants to contemplate personal and collective implications of debt and our culture of over-consumption. <br>This piece conveys a graphic, bodily sense of debt as constraining and suffocating through its \"belt tightening\" device and audio-video. A motorized corset and interactive video installation responds to individual debt levels that gallery visitors submit via their cell phones. As debt is submitted, the device squeezes a bloated dress-dummy torso through an elaborate pulley and winch system. Simultaneously, video of gold foil covered chocolate coins cascades down and accumulates at different heights according to amounts of debt. Absent viewer input, it randomly scrolls through the U.S. national debt, average student loan, and median gallery visitors’ debt that is projected upon audio-video of simmering fat.",
+                        "tech": "Adobe Director, Arduino, Voltage controlled DC motors, HTML scrapper in Java, Email / SMS parser in Python",
+                        "video": "http://emedia.art.sunysb.edu/christa/movs/EricksonDebt.mov"
+                    },
+                    {
+                        "title": "Web Game",
+                        "description": "<i>Scavenger Hunt</i> is part of <i>MNEMONIC DEVICES</i>. It examines the e-rhetoric of \"connection\" and the collective memory of the web. The two on-site web stations (laptops on opposite ends of a table that resembles the seesaw) allow people to play a scavenger hunt game with each other or people in remote locations. It asks a series of questions that are answered via a search engine. The one who finds all the answers first wins.",
+                        "tech": "Flash, Adobe Flex, ActionScript 3, multi threaded server in Java SE, real time sockets"
+                    },
+                    {
+                        "title": "Climate Shifts",
+                        "description": "We are all affected by our immediate context and its political, environmental, cultural and temporal influences. \"Climate Shifts\" juxtaposes various locations around the globe and their points of view through local news headlines and weather data. Differences in concerns and perspectives emerge, sometimes about the same world events, allowing a glimpse into the collective psyche of each place. How do geographically differing news sources interpret an election season? What are the primary concerns in Beirut versus Jerusalem? What events in Asia echo in Latin America?<br>A large umbrella acts as an overhead screen upon which the piece animates shifts through various destinations with the top of the umbrella pole acting as a locator. 'Climate' news, weather and time are gathered from real-time RSS feeds and layered over an illuminated light pollution satellite image of the globe. Time is reflected by clock hands that spin and adjust according to the time zone.",
+                        "tech": "Flash, Adobe Flex, ActionScript 3, RSS parsing, PHP, MySQL",
+                        "video": "http://emedia.art.sunysb.edu/christa/movs/EricksonClimate.mov"
+                    }
+                ]
+            }
+        }
+    },
+    "agency": {
+        "label": "Agency",
+        "description": "Projects at digital agencies.",
+        "work": {
+            "prh": {
+                "title": "Physicians for Reproductive Health",
+                "thumb": {
+                    "image": "/assets/images/thumbs/no-bg/prh.png",
+                    "invert": false
+                },
+                "agency": "Huge",
+                "description": "Website re-plaform and redesign for non-profit organization, Physicians for Reproductive Health",
+                "links": [
+                    {
+                        "label": "view site",
+                        "href": "https://prh.org/"
+                    }
+                ],
+                "role": "Technical Architect",
+                "year": "April - June 2017",
+                "tech": "Wordpress, Twilio auth API"
+            },
+            "livecase": {
+                "title": "LiveCase by Google",
+                "thumb": {
+                    "image": "/assets/images/thumbs/no-bg/livecase.png",
+                    "invert": false
+                },
+                "agency": "Huge",
+                "role": "Lead full stack engineer",
+                "description": "Google Live Case is a personalized case for Nexus and Pixel phones available from the Google Store. The case is fully customizable and comes with a live wallpaper to match your design. Additionally, the case packs an NFC chip, which activates the companion app. Huge was tasked with designing and building the product selection, customizer and checkout flow.<br />We created three different \"generators\" for Google. For the Places generator, users choose their device, locate and position a place on Google Maps, and choose an optional style and color scheme. Photos allowed you deck your case out with your favorite photos. Artist Collections lets you browse and select from a curated list of graphic artist.<br />I contributed to all areas of the product development. From setting up the CI pipeline, developing a load testing and profiling rig, 3rd party API integrations for content moderation and companion app, 3d rendering optimizations, custom shaders.",
+                "links": [
+                    {
+                        "label": "view product",
+                        "href": "https://livecase.withgoogle.com/"
+                    },
+                    {
+                        "label": "The Keyword",
+                        "href": "https://blog.google/products/pixel/meet-google-earth-and-google-trends-live-cases/"
+                    }
+                ],
+                "year": "July 2015 - Oct 2016",
+                "tech": "Backend: Python, Golang, Google Cloud(AppEngine, Services, Task Queues, Storage, BigQuery, Datastore) Frontend: Angular.js, Three.js, GLSL",
+                "gallery": [
+                    {
+                        "image": "/assets/images/projects/livecase/video1.png",
+                        "type": "youtube",
+                        "asset": "FBWvXZP_frg"
+                    }
+                ]
+            },
+            "twg": {
+                "title": "Think with Google",
+                "thumb": {
+                    "image": "/assets/images/thumbs/no-bg/twg.png",
+                    "invert": false
+                },
+                "description": "Think with Google is Google's unique editorial and data insights destination for marketing professionals. <br />I worked as a backend lead developing custom publishing solutions on a propietary content platform, continous integration and delivery practices for the tech team and a scalable localisation platform. <br /> I worked closely with content strategists on information architecture and translating that to efficient database designs. Mentored and helped on board new developers.",
+                "links": [
+                    {
+                        "label": "view site",
+                        "href": "https://thinkwithgoogle.com"
+                    }
+                ],
+                "year": "May 2014- June 2015",
+                "agency": "Huge",
+                "role": "Lead backend engineer",
+                "tech": "Python, Google Cloud(AppEngine, Services, Task Queues, Datastore)"
+            },
+            "playstation": {
+                "title": "First To Greatness - PS4",
+                "thumb": {
+                    "image": "/assets/images/thumbs/no-bg/first-to-greatness.png",
+                    "invert": false
+                },
+                "agency": "Stink Digital",
+                "description": "First To Greatness is a first of its kind site that allows gamers to upload game footage against a list of 64 challenges to become a part of PlayStation history being made on the new PS4 console.<br>I only joined the project in its last few weeks and helped with its launch. I helped solve front end bugs and cross browser video delivery issues on a extremely tight deadline. I implemented custom scripts to transcode a large amount of user generated videos to multiple formats right after the initial beta release.",
+                "links": [
+                    {
+                        "label": "IGN",
+                        "href": "http://www.ign.com/articles/2013/11/27/sony-announces-first-to-greatness-ps4-competition"
+                    },
+                    {
+                        "label": "Joystiq",
+                        "href": "http://www.joystiq.com/2013/11/24/sony-challenges-ps4-community-launches-first-to-greatness-campa/"
+                    },
+                    {
+                        "label": "Business Insider",
+                        "href": "http://www.businessinsider.com/playstations-first-to-greatness-campaign-2013-11"
+                    },
+                    {
+                        "label": "FWA SOTD",
+                        "href": "http://www.thefwa.com/site/first-to-greatness"
+                    },
+                    {
+                        "label": "D&AD Book",
+                        "href": "http://www.dandad.org/awards/professional/2014/integrated-earned-media/23037/the-launch-of-greatness-awaits/"
+                    },
+                    {
+                        "label": "Cannes Cyber Lion - Silver",
+                        "href": "http://winners.canneslions.com/2014/interactive/entry.cfm?entryid=12224&award=101&order=0&direction=1&keywords=playstation"
+                    }
+                ],
+                "year": 2014,
+                "tech": "FFMPEG, Ruby on Rails, Active Admin CMS customizations, CSS3 animations, Javascript performance optimization",
+                "gallery": [
+                    {
+                        "image": "/assets/images/projects/playstation/video1.png",
+                        "asset": "94971063",
+                        "type": "vimeo"
+                    },
+                    {
+                        "image": "/assets/images/projects/playstation/ftg1.jpg",
+                        "type": "image"
+                    },
+                    {
+                        "image": "/assets/images/projects/playstation/ftg2.jpg",
+                        "type": "image"
+                    },
+                    {
+                        "image": "/assets/images/projects/playstation/ftg3.jpg",
+                        "type": "image"
+                    }
+                ]
+            },
+            "rangerover": {
+                "title": "Race The Sun",
+                "thumb": {
+                    "image": "/assets/images/thumbs/no-bg/race-the-sun2.png",
+                    "invert": false
+                },
+                "agency": "Stink Digital",
+                "description": "Race the Sun is a big, sweeping interactive film that users control via their mobile phone or keyboard.<br> In the experience, users follow our driver as he races to deliver a Range Rover to a hidden location before sunset. Users have the option to use their mobile phone as a second screen that allows them to play racing games within the narrative. The games call back to key features of the sport, such as acceleration, agility and off-road capabilities.<br>Race The Sun was built using NodeJS and web sockets to enable the phone syncing experience.<br>We implemented a video playback system that incorporated multiple streaming HTML5 players to allow users to proceed through the experience quickly and with virtually no buffering. The games incorporated mobile specific technologies such as accelerometer and swipe gestures.<br>Thanks to HTML5 video and other modern web technologies, we were able to support a wide array of desktops and tablets, broadening our reach.",
+                "year": 2013,
+                "tech": "Node.js, Socket.IO, Youtube API, Backbone.js, Amazon S3 for assets, Krpano for panoramas, Nodejitsu for application hosting",
+                "awards": "FWA Site Of The Day,  FWA Mobile Site Of The Day, FWA Adobe Cutting Edge Award",
+                "gallery": [
+                    {
+                        "image": "/assets/images/projects/rangerover/video1.png",
+                        "asset": "Wz37OXoJOss",
+                        "type": "youtube",
+                        "width": 1280,
+                        "height": 834
+                    },
+                    {
+                        "image": "/assets/images/projects/rangerover/hero-large.jpg",
+                        "type": "image"
+                    },
+                    {
+                        "image": "/assets/images/projects/rangerover/rangerover-01.jpg",
+                        "type": "image"
+                    },
+                    {
+                        "image": "/assets/images/projects/rangerover/rangerover-02.jpg",
+                        "type": "image"
+                    },
+                    {
+                        "image": "/assets/images/projects/rangerover/rangerover-03.jpg",
+                        "type": "image"
+                    },
+                    {
+                        "image": "/assets/images/projects/rangerover/rangerover-04.jpg",
+                        "type": "image"
+                    },
+                    {
+                        "image": "/assets/images/projects/rangerover/rangerover-05.jpg",
+                        "type": "image"
+                    },
+                    {
+                        "image": "/assets/images/projects/rangerover/rangerover-06.jpg",
+                        "type": "image"
+                    },
+                    {
+                        "image": "/assets/images/projects/rangerover/rangerover-07.jpg",
+                        "type": "image"
+                    },
+                    {
+                        "image": "/assets/images/projects/rangerover/rangerover-08.jpg",
+                        "type": "image"
+                    },
+                    {
+                        "image": "/assets/images/projects/rangerover/rangerover-10.jpg",
+                        "type": "image"
+                    },
+                    {
+                        "image": "/assets/images/projects/rangerover/rangerover-11.jpg",
+                        "type": "image"
+                    },
+                    {
+                        "image": "/assets/images/projects/rangerover/rangerover-12.jpg",
+                        "type": "image"
+                    },
+                    {
+                        "image": "/assets/images/projects/rangerover/rangerover-13.jpg",
+                        "type": "image"
+                    }
+                ]
+            },
+            "nvtv": {
+                "title": "Nature Valley Trail View",
+                "thumb": {
+                    "image": "/assets/images/thumbs/no-bg/nvtv.png",
+                    "invert": false
+                },
+                "agency": "Your Majesty",
+                "description": "The Trail View project was born out of Nature Valley's commitment to nature and their mission to preserve it.<br>It was the first-of-its-kind hiking experience and glimpse into America's National Parks using Street View technology, and to pull it off we hiked, climbed, and captured over 400 miles of 360° photo-views across the country.<br>Choosing from Grand Canyon, Yellowstone, Great Smoky Mountains and Sequoia, hikers can pick one of the parks and explore its trails in depth via a topographic map.  In addition we shot and developed high-quality full 360 point-of-interest panorama photography as key call outs on the site, mixed with ambient natural sound from the respective environments. Trail View 2.0 also highlights Nature Valley's preservation efforts, flora and fauna and mobile-optimized experience.<br><blockquote><i>They ported the Street View 360 technology into creating the original,<br>unprecedented Trail View platform</i> &mdash; Google</blockquote><h4>Milestones</h4><ul> <li>38.4 million media impressions.</li><li>Brand fanbase up 16,000+.</li><li>$1.3 mil raised and donated for conservation.</li><li>10x growth in visitors.</li><li>Average 3:41 min spent on site following broadcast spot.</li><li>Featured in IDEO's lecture series.</li><li>34 awards including 2x Cannes Cyber Lions, 2x Clios, and 2x Webby wins.</li></ul>",
+                "links": [
+                    {
+                        "label": "Fast Company",
+                        "href": "https://www.fastcompany.com/1790419/street-view-style-tour-national-parks-hiking-trails-courtesy-nature-valley"
+                    },
+                    {
+                        "label": "The New York Times",
+                        "href": "http://www.nytimes.com/2012/03/08/business/media/virtual-hikes-promote-nature-valley-granola-bars.html"
+                    },
+                    {
+                        "label": "Condé Nast Traveler",
+                        "href": "http://www.cntraveler.com/stories/2012-03-07/nature-valley-granola-national-parks-view-hiking"
+                    },
+                    {
+                        "label": "The Verge",
+                        "href": "https://www.theverge.com/2012/3/8/2854332/nature-valley-trail-view-national-park-virtual-tour"
+                    },
+                    {
+                        "label": "Adweek",
+                        "href": "http://www.adweek.com/creativity/nature-valley-trail-view-celebrated-digital-campaign-national-parks-gets-update-148895/"
+                    },
+                    {
+                        "label": "Think with Google - Trail View",
+                        "href": "https://www.thinkwithgoogle.com/intl/en-gb/campaigns/general-mills-nature-valley-trail-view.html"
+                    },
+                    {
+                        "label": "Think with Google - Trail View 2.0",
+                        "href": "https://www.thinkwithgoogle.com/campaigns/general-mills-nature-valley-trail-view.html"
+                    },
+                    {
+                        "label": "PCMag",
+                        "href": "http://www.pcmag.com/article2/0,2817,2402065,00.asp"
+                    },
+                    {
+                        "label": "Popular Mechanics",
+                        "href": "http://www.popularmechanics.com/culture/web/a7547/sxsw-virtually-hike-national-parks-with-nature-valleys-trail-view-7358691/"
+                    }
+                ],
+                "year": "2012-13",
+                "role": "Tech Lead",
+                "tech": "Ruby on Rails, Spine.js, FFMPEG, Google Maps API, Krpano, Rackspace",
+                "gallery": [
+                    {
+                        "image": "/assets/images/projects/nvtv/video1.png",
+                        "type": "vimeo",
+                        "asset": "42582327"
+                    },
+                    {
+                        "image": "/assets/images/projects/nvtv/nvtv0.jpg",
+                        "type": "image"
+                    },
+                    {
+                        "image": "/assets/images/projects/nvtv/nvtv1.jpg",
+                        "type": "image"
+                    },
+                    {
+                        "image": "/assets/images/projects/nvtv/nvtv2.jpg",
+                        "type": "image"
+                    },
+                    {
+                        "image": "/assets/images/projects/nvtv/nvtv3.jpg",
+                        "type": "image"
+                    },
+                    {
+                        "image": "/assets/images/projects/nvtv/nvtv4.jpg",
+                        "type": "image"
+                    },
+                    {
+                        "image": "/assets/images/projects/nvtv/nvtv5.jpg",
+                        "type": "image"
+                    },
+                    {
+                        "image": "/assets/images/projects/nvtv/nvtv6.jpg",
+                        "type": "image"
+                    },
+                    {
+                        "image": "/assets/images/projects/nvtv/nvtv7.jpg",
+                        "type": "image"
+                    },
+                    {
+                        "image": "/assets/images/projects/nvtv/nvtv8.jpg",
+                        "type": "image"
+                    },
+                    {
+                        "image": "/assets/images/projects/nvtv/nvtv9.jpg",
+                        "type": "image"
+                    },
+                    {
+                        "image": "/assets/images/projects/nvtv/nvtv10.jpg",
+                        "type": "image"
+                    },
+                    {
+                        "image": "/assets/images/projects/nvtv/video2.png",
+                        "type": "vimeo",
+                        "asset": "41114976"
+                    },
+                    {
+                        "image": "/assets/images/projects/nvtv/video3.png",
+                        "asset": "64149044",
+                        "type": "vimeo"
+                    },
+                    {
+                        "image": "/assets/images/projects/nvtv/video4.png",
+                        "asset": "64029089",
+                        "type": "vimeo"
+                    },
+                    {
+                        "image": "/assets/images/projects/nvtv/video5.png",
+                        "asset": "44758448",
+                        "type": "vimeo"
+                    }
+                ]
+            },
+            "bespoken": {
+                "title": "Bespoken Clothiers",
+                "thumb": {
+                    "image": "/assets/images/thumbs/no-bg/bespoken.png",
+                    "invert": true
+                },
+                "agency": "Your Majesty",
+                "description": "E-commerce and website for Bespoken, a New York-based menswear design collective",
+                "year": "2011",
+                "tech": "Ruby on Rails, Coffeescript, HAML, SCSS, Spree e-commerce",
+                "gallery": [
+                    {
+                        "image": "/assets/images/projects/bespoken/bs1.jpg",
+                        "type": "image"
+                    },
+                    {
+                        "image": "/assets/images/projects/bespoken/bs2.jpg",
+                        "type": "image"
+                    },
+                    {
+                        "image": "/assets/images/projects/bespoken/bs3.jpg",
+                        "type": "image"
+                    },
+                    {
+                        "image": "/assets/images/projects/bespoken/bs4.jpg",
+                        "type": "image"
+                    }
+                ]
+            },
+            "view": {
+                "title": "JWT View",
+                "thumb": {
+                    "image": "/assets/images/thumbs/no-bg/view.png",
+                    "invert": false
+                },
+                "agency": "The Map Office / Pentagram",
+                "description": "Custom Data Visualization application. Application served as a real time editor and visualizer. Ability to create and organize data sets, edit data, import CSV and immediately visualize the results in multiple windows. Use of timeline animation and clustering techniques for better discovery of trends",
+                "tech": "Adobe AIR, Flex, Robotlegs, PHP, MySQL",
+                "year": "2010-11",
+                "gallery": [
+                    { "image": "/assets/images/projects/view/view1.png", "type": "image" },
+                    { "image": "/assets/images/projects/view/view2.png", "type": "image" },
+                    { "image": "/assets/images/projects/view/view3.png", "type": "image" },
+                    { "image": "/assets/images/projects/view/view4.png", "type": "image" },
+                    { "image": "/assets/images/projects/view/view5.png", "type": "image" },
+                    { "image": "/assets/images/projects/view/view6.png", "type": "image" },
+                    { "image": "/assets/images/projects/view/view7.png", "type": "image" },
+                    { "image": "/assets/images/projects/view/view8.png", "type": "image" },
+                    { "image": "/assets/images/projects/view/view9.png", "type": "image" },
+                    { "image": "/assets/images/projects/view/view10.png", "type": "image" },
+                    { "image": "/assets/images/projects/view/view11.png", "type": "image" },
+                    { "image": "/assets/images/projects/view/view12.png", "type": "image" },
+                    { "image": "/assets/images/projects/view/view13.png", "type": "image" },
+                    { "image": "/assets/images/projects/view/view14.png", "type": "image" }
+                ]
+            },
+            "nokia": {
+                "title": "Shot by Fans",
+                "thumb": {
+                    "image": "/assets/images/thumbs/no-bg/nokia.jpg",
+                    "invert": false
+                },
+                "agency": "The Map Office",
+                "description": "Designed and programmed in 2009 while working at The Map Office, under contract with JWT. Over 100 fans were invited to shoot the official music video for the Noisettes single \"Saturday Night\", using only Nokia mobile devices. This rich internet application, a flash-based music video creator, was developed entirely in Adobe Flex which allowed visitors to filter through over 200 short clips and edit their own music video.<br><br>Under the watchful eye of a leading music promo director, Kim Gehrig, the fans filmed the Noisettes playing in a disused swimming pool in East London capturing all the energy and excitement of an exceptional Saturday Night out. The fans were both the cast and crew. The application lived on www.shotbyfans.com and only lived for a few months; the application allowed visitors to edit their own video and share it on Facebook.<br><br>Due to the limitation of Flash in handling video buffers at the time, user made edits were rendered on the server using ffmpeg and previews were made possible by simply playing video samples sequentially and using some client caching techniques.",
+                "year": 2009,
+                "client": "JWT",
+                "tech": "Flash, Flex, ActionScript 3, PHP, MySQL, FFMPEG, The MiG CMS",
+                "gallery": [
+                    { "image": "/assets/images/projects/nokia/noisettes1.png", "type": "image" },
+                    { "image": "/assets/images/projects/nokia/noisettes2.png", "type": "image" },
+                    { "image": "/assets/images/projects/nokia/noisettes3.png", "type": "image" },
+                    { "image": "/assets/images/projects/nokia/noisettes04.png", "type": "image" },
+                    { "image": "/assets/images/projects/nokia/noisettes05.png", "type": "image" },
+                    { "image": "/assets/images/projects/nokia/noisettes06.png", "type": "image" },
+                    { "image": "/assets/images/projects/nokia/noisettes07.png", "type": "image" },
+                    { "image": "/assets/images/projects/nokia/noisettes08.png", "type": "image" },
+                    { "image": "/assets/images/projects/nokia/noisettes09.png", "type": "image" },
+                    { "image": "/assets/images/projects/nokia/noisettes09a.png", "type": "image" },
+                    { "image": "/assets/images/projects/nokia/noisettes10.png", "type": "image" },
+                    { "image": "/assets/images/projects/nokia/noisettes11.png", "type": "image" },
+                    { "image": "/assets/images/projects/nokia/noisettes12.png", "type": "image" },
+                    { "image": "/assets/images/projects/nokia/noisettes13.png", "type": "image" },
+                    { "image": "/assets/images/projects/nokia/noisettes14.png", "type": "image" },
+                    { "image": "/assets/images/projects/nokia/noisettes15.png", "type": "image" },
+                    { "image": "/assets/images/projects/nokia/noisettes16.png", "type": "image" }
+                ]
+            },
+            "fractals": {
+                "title": "Museum Tower Wall Covering",
+                "thumb": {
+                    "image": "/assets/images/thumbs/no-bg/fractal.png",
+                    "invert": false
+                },
+                "agency": "The Map Office",
+                "tech": "Processing",
+                "description": "Large scale generative wall covering for the Museum Tower residential building in New York City. Using Processing, I developed a custom algorithm that generated intricate patterns and shapes that echoed the building's design.",
+                "year": 2009
+            },
+            "newdeal": {
+                "title": "New Deal Design",
+                "thumb": {
+                    "image": "/assets/images/thumbs/no-bg/ndd.png",
+                    "invert": false
+                },
+                "agency": "The Map Office",
+                "description": "Website for the industrial / product design agency",
+                "tech": "Flash, Adobe Flex, ActionScript 3, PHP, MySQL, FFMPEG, The MiG CMS",
+                "year": 2010,
+                "gallery": [
+                    { "image": "/assets/images/projects/newdeal/ndd_1.png", "type": "image" },
+                    { "image": "/assets/images/projects/newdeal/ndd_2.png", "type": "image" },
+                    { "image": "/assets/images/projects/newdeal/ndd_3.png", "type": "image" },
+                    { "image": "/assets/images/projects/newdeal/ndd_4.png", "type": "image" },
+                    { "image": "/assets/images/projects/newdeal/ndd_5.png", "type": "image" },
+                    { "image": "/assets/images/projects/newdeal/ndd_6.png", "type": "image" },
+                    { "image": "/assets/images/projects/newdeal/ndd_7.png", "type": "image" },
+                    { "image": "/assets/images/projects/newdeal/ndd_8.png", "type": "image" },
+                    { "image": "/assets/images/projects/newdeal/ndd_9.png", "type": "image" },
+                    { "image": "/assets/images/projects/newdeal/ndd_10.png", "type": "image" },
+                    { "image": "/assets/images/projects/newdeal/ndd_11.png", "type": "image" }
+                ]
+            },
+            "osl": {
+                "title": "Orchestra of St Luke",
+                "thumb": {
+                    "image": "/assets/images/thumbs/no-bg/osl.jpg",
+                    "invert": false
+                },
+                "agency": "The Map Office",
+                "tech": "DarwiinRemote, ActionScript 3, Flash",
+                "description": "This collaboration between Orchestra of St. Luke's / Map utilized the Nintendo Wii Remote as an interactive tool. Using the infrared sensor and detecting application, students were transformed into visual conductors using the Wii Remote to create real-time collages. Controlling; Size, Tint, and Frequency. The installation was performed live alongside the Orchestra, with the graphics projected above. With the theme of \"Home is Everything: New York City,\" selected students ranging from grades 3-5 were asked to photograph \"their\" New York City. These images were then translated by Map and placed into an image bank for the application. Students were asked to orchestrate and compose collages using these image banks, determining size, color, and frequency. The installation was performed alongside the orchestra in front of a live audience at the Brooklyn High School of Performing Arts and the Apollo Theatre in New York City.",
+                "year": 2009,
+                "gallery": [
+                    { "image": "/assets/images/projects/osl/osl_wii_1.jpg", "type": "image" },
+                    { "image": "/assets/images/projects/osl/osl_wii_2.jpg", "type": "image" },
+                    { "image": "/assets/images/projects/osl/osl_wii_3.jpg", "type": "image" },
+                    { "image": "/assets/images/projects/osl/osl_wii_4.jpg", "type": "image" },
+                    { "image": "/assets/images/projects/osl/osl_wii_5.jpg", "type": "image" },
+                    { "image": "/assets/images/projects/osl/osl_wii_6.jpg", "type": "image" },
+                    { "image": "/assets/images/projects/osl/osl_wii_7.jpg", "type": "image" }
+                ]
+            },
+            "aro": {
+                "title": "Architecture Research Office",
+                "thumb": {
+                    "image": "/assets/images/thumbs/no-bg/aro.png",
+                    "invert": false
+                },
+                "agency": "The Map Office",
+                "description": "Website for the New York-based firm practicing modern architecture and visionary urbanism.",
+                "year": 2009,
+                "tech": "Flash, Adobe Flex, ActionScript 3, PHP, MySQL, The MiG CMS",
+                "gallery": [
+                    { "image": "/assets/images/projects/aro/aro-1.png", "type": "image" },
+                    { "image": "/assets/images/projects/aro/aro-2.png", "type": "image" },
+                    { "image": "/assets/images/projects/aro/aro-3.png", "type": "image" },
+                    { "image": "/assets/images/projects/aro/aro-4.png", "type": "image" },
+                    { "image": "/assets/images/projects/aro/aro-5.png", "type": "image" },
+                    { "image": "/assets/images/projects/aro/aro-6.png", "type": "image" },
+                    { "image": "/assets/images/projects/aro/aro-7.png", "type": "image" },
+                    { "image": "/assets/images/projects/aro/aro_01.jpg", "type": "image" },
+                    { "image": "/assets/images/projects/aro/aro_02.jpg", "type": "image" },
+                    { "image": "/assets/images/projects/aro/aro_03.jpg", "type": "image" },
+                    { "image": "/assets/images/projects/aro/aro_04.jpg", "type": "image" },
+                    { "image": "/assets/images/projects/aro/aro_05.jpg", "type": "image" },
+                    { "image": "/assets/images/projects/aro/aro_06.jpg", "type": "image" },
+                    { "image": "/assets/images/projects/aro/aro_07.jpg", "type": "image" },
+                    { "image": "/assets/images/projects/aro/aro_08.jpg", "type": "image" }
+                ]
+            },
+            "kitchen": {
+                "title": "The Kitchen",
+                "thumb": {
+                    "image": "/assets/images/thumbs/no-bg/kitchen.png",
+                    "invert": false
+                },
+                "agency": "The Map Office",
+                "description": "Website for The Kitchen, a non-profit interdisciplinary arts organization.",
+                "tech": "Codeigniter, PHP, MySQL, The MiG CMS",
+                "year": "2009-10",
+                "gallery": [
+                    { "image": "/assets/images/projects/kitchen/kitchen1.jpg", "type": "image" },
+                    { "image": "/assets/images/projects/kitchen/kitchen2.jpg", "type": "image" },
+                    { "image": "/assets/images/projects/kitchen/kitchen3.jpg", "type": "image" },
+                    { "image": "/assets/images/projects/kitchen/kitchen4.jpg", "type": "image" },
+                    { "image": "/assets/images/projects/kitchen/kitchen5.jpg", "type": "image" },
+                    { "image": "/assets/images/projects/kitchen/kitchen6.jpg", "type": "image" },
+                    { "image": "/assets/images/projects/kitchen/kitchen7.jpg", "type": "image" },
+                    { "image": "/assets/images/projects/kitchen/kitchen8.jpg", "type": "image" }
+                ]
+            },
+            "typem": {
+                "title": "Type M",
+                "thumb": {
+                    "image": "/assets/images/thumbs/no-bg/typem.png",
+                    "invert": false
+                },
+                "agency": "The Map Office",
+                "description": "Powered by The MiG, this app showcased a new plugin for the CMS that allowed to dynamically import and enable fonts for a Flash site without recompiling or redeploying the main app.<br>The plugin accepted OTF or TTF files and generated ActionScript 3 files using PHP, that were later compiled using mxmlc and java on the server via shell commands.<br>The resulting SWFs contained the embedded fonts and the front end app would fetch them and enable those fonts at runtime.",
+                "year": 2009,
+                "tech": "Flash, Adobe Flex, ActionScript 3, PHP, MySQL, The MiG CMS",
+                "gallery": [
+                    { "image": "/assets/images/projects/typem/typem1.png", "type": "image" },
+                    { "image": "/assets/images/projects/typem/typem2.png", "type": "image" },
+                    { "image": "/assets/images/projects/typem/typem3.png", "type": "image" },
+                    { "image": "/assets/images/projects/typem/typem4.png", "type": "image" },
+                    { "image": "/assets/images/projects/typem/typem5.png", "type": "image" },
+                    { "image": "/assets/images/projects/typem/typem6.png", "type": "image" },
+                    { "image": "/assets/images/projects/typem/typem7.png", "type": "image" },
+                    { "image": "/assets/images/projects/typem/typem8.png", "type": "image" },
+                    { "image": "/assets/images/projects/typem/typem9.png", "type": "image" }
+                ]
+            },
+            "jazz": {
+                "title": "Ertegun Jazz Hall of Fame",
+                "thumb": {
+                    "image": "/assets/images/thumbs/no-bg/jazz.png",
+                    "invert": true
+                },
+                "agency": "The Map Office",
+                "tech": "Flash, Adobe Flex, ActionScript 3, PHP, MySQL, The MiG CMS",
+                "description": "Website and Kiosks for the Nesuhi Ertegun Hall of Fame - Jazz at Lincoln Center",
+                "year": 2009,
+                "gallery": [
+                    { "image": "/assets/images/projects/jazz/jalc-hof-0a.jpg", "type": "image" },
+                    { "image": "/assets/images/projects/jazz/jalc-hof-0b.jpg", "type": "image" },
+                    { "image": "/assets/images/projects/jazz/jalc-hof-1.jpg", "type": "image" },
+                    { "image": "/assets/images/projects/jazz/jalc-hof-10.gif", "type": "image" },
+                    { "image": "/assets/images/projects/jazz/jalc-hof-11.gif", "type": "image" },
+                    { "image": "/assets/images/projects/jazz/jalc-hof-12.gif", "type": "image" },
+                    { "image": "/assets/images/projects/jazz/jalc-hof-13.gif", "type": "image" },
+                    { "image": "/assets/images/projects/jazz/jalc-hof-2.jpg", "type": "image" },
+                    { "image": "/assets/images/projects/jazz/jalc-hof-3.jpg", "type": "image" },
+                    { "image": "/assets/images/projects/jazz/jalc-hof-4.jpg", "type": "image" },
+                    { "image": "/assets/images/projects/jazz/jalc-hof-5.jpg", "type": "image" },
+                    { "image": "/assets/images/projects/jazz/jalc-hof-6.gif", "type": "image" },
+                    { "image": "/assets/images/projects/jazz/jalc-hof-7.gif", "type": "image" },
+                    { "image": "/assets/images/projects/jazz/jalc-hof-8.gif", "type": "image" },
+                    { "image": "/assets/images/projects/jazz/jalc-hof-9.gif", "type": "image" }
+                ]
+            },
+            "ucla": {
+                "title": "UCLA Architecture & Urban Design",
+                "thumb": {
+                    "image": "/assets/images/thumbs/no-bg/ucla.png",
+                    "invert": true
+                },
+                "agency": "The Map Office",
+                "description": "Website for UCLA's school of Architecture and Urban Design. Powered by the MiG CMS",
+                "year": "2008",
+                "tech": "Flash, Adobe Flex, ActionScript 3, PHP, MySQL, The MiG CMS",
+                "gallery": [
+                    { "image": "/assets/images/projects/ucla/ucla_site1.png", "type": "image" },
+                    { "image": "/assets/images/projects/ucla/ucla_site2.png", "type": "image" },
+                    { "image": "/assets/images/projects/ucla/ucla_site3.png", "type": "image" },
+                    { "image": "/assets/images/projects/ucla/ucla_site4.png", "type": "image" },
+                    { "image": "/assets/images/projects/ucla/ucla_site5.png", "type": "image" },
+                    { "image": "/assets/images/projects/ucla/ucla_site6.png", "type": "image" }
+                ]
+            },
+            "mig": {
+                "title": "The MiG CMS",
+                "description": "The MiG is a richly interactive, web-based content and asset management system that excels in both text authoring, as well as the delivery of large quantities of media assets. The project was initiated at The Map Office under the direction of Eddie Opara.",
+                "thumb": {
+                    "image": "/assets/images/thumbs/no-bg/mig.png",
+                    "invert": true
+                },
+                "agency": "The Map Office",
+                "role": "Lead Developer, concepting, architecture",
+                "tech": "Flash, Adobe Flex, ActionScript 3, PHP, MySQL, XMP, FFMPEG, ID3",
+                "year": "Mar 2008 - Oct 2010",
+                "gallery": [
+                    { "type": "image", "image": "/assets/images/projects/mig/calendar.jpg" },
+                    { "type": "image", "image": "/assets/images/projects/mig/comments.jpg" },
+                    { "type": "image", "image": "/assets/images/projects/mig/custom-fields-1.jpg" },
+                    { "type": "image", "image": "/assets/images/projects/mig/custom-fields-2.jpg" },
+                    { "type": "image", "image": "/assets/images/projects/mig/flex-editor.jpg" },
+                    { "type": "image", "image": "/assets/images/projects/mig/general-edit-fields.jpeg" },
+                    { "type": "image", "image": "/assets/images/projects/mig/general.jpeg" },
+                    { "type": "image", "image": "/assets/images/projects/mig/help-window.jpg" },
+                    { "type": "image", "image": "/assets/images/projects/mig/html-editor.jpeg" },
+                    { "type": "image", "image": "/assets/images/projects/mig/link-manager1.jpg" },
+                    { "type": "image", "image": "/assets/images/projects/mig/link-manager2.jpg" },
+                    { "type": "image", "image": "/assets/images/projects/mig/link-manager3.jpg" },
+                    { "type": "image", "image": "/assets/images/projects/mig/link-manager4.jpg" },
+                    { "type": "image", "image": "/assets/images/projects/mig/link-manager5.jpg" },
+                    { "type": "image", "image": "/assets/images/projects/mig/link-manager6.jpg" },
+                    { "type": "image", "image": "/assets/images/projects/mig/link-manager7.jpg" },
+                    { "type": "image", "image": "/assets/images/projects/mig/link-manager8.jpg" },
+                    { "type": "image", "image": "/assets/images/projects/mig/link-manager9.jpg" },
+                    { "type": "image", "image": "/assets/images/projects/mig/media1.png" },
+                    { "type": "image", "image": "/assets/images/projects/mig/media2.jpg" },
+                    { "type": "image", "image": "/assets/images/projects/mig/media3.png" },
+                    { "type": "image", "image": "/assets/images/projects/mig/media4.png" },
+                    { "type": "image", "image": "/assets/images/projects/mig/search.jpeg" },
+                    { "type": "image", "image": "/assets/images/projects/mig/settings.jpeg" },
+                    { "type": "image", "image": "/assets/images/projects/mig/settings.jpg" },
+                    { "type": "image", "image": "/assets/images/projects/mig/template-manager1.jpg" },
+                    { "type": "image", "image": "/assets/images/projects/mig/template-manager2.jpg" }
+                ]
+            }
+        }
+    },
+    "product": {
+        "label": "Work",
+        "description": "Music Industry technology roles.",
+        "work": {
+            "sonymusic": {
+                "title": "Sony Music",
+                "thumb": {
+                    "image": "/assets/images/thumbs/no-bg/sony.png",
+                    "invert": false
+                },
+                "description": "Principal Software Engineer, Product, Design & Engineering",
+                "year": "July 2022 - present",
+                "tech": "Python, Flask, Fast API, Graphql, Node, Typescript, React, AWS, Snowflake, Kafka, Neo4j"
+            },
+            "orchard": {
+                "title": "The Orchard",
+                "thumb": {
+                    "image": "/assets/images/thumbs/no-bg/orchard.png",
+                    "invert": false
+                },
+                "description": "Contributing to The Orchard as a full stack engineer.",
+                "year": "sept 2017 - July 2022",
+                "tech": "Python, Flask, Fast API, Graphql, Node, Typescript, React, AWS, Snowflake, Kafka, Neo4j"
+            }
+        }
+    }
+}
