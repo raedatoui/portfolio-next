@@ -3,6 +3,106 @@
         "label": "Fun",
         "description": "freelance, collaborations, personal projects",
         "work": {
+            "hurdl": {
+                "title": "Hurdl",
+                "thumb": {
+                    "image": "/assets/images/thumbs/no-bg/hurdl.png",
+                    "invert": false
+                },
+                "description": "A to-do list / tracker built around how I actually work: lanes for each area of focus, columns inside them, and a Now strip that pulls the single task that matters to the top. Tasks carry markdown notes, everything drags and drops, and nothing is ever really gone &mdash; both archive and trash restore. A separate catalog view tracks side projects, their live/WIP status, and their loose ends.<br><br>One codebase ships twice: a static export on Firebase Hosting, and a signed macOS app built with Tauri that updates itself. Lanes can be shared with another account so two people work the same board, with Firestore rules enforcing who can read what.<br><br>The app is locked to an allowlist of accounts, so there is no public demo. Happy to give a walkthrough or add you if you want a closer look.",
+                "links": [
+                    {
+                        "label": "view source",
+                        "href": "https://github.com/raedatoui/hurdl"
+                    }
+                ],
+                "year": "2026 - present",
+                "tech": "Next.js, React, TypeScript, Firebase Auth, Firestore, Tauri, Rust, dnd-kit, Tailwind CSS",
+                "gallery": [
+                    {
+                        "image": "/assets/images/projects/hurdl/board-light.png",
+                        "type": "image",
+                        "width": 1600,
+                        "height": 1000
+                    },
+                    {
+                        "image": "/assets/images/projects/hurdl/board-dark.png",
+                        "type": "image",
+                        "width": 1600,
+                        "height": 1000
+                    },
+                    {
+                        "image": "/assets/images/projects/hurdl/add-lane.png",
+                        "type": "image",
+                        "width": 1600,
+                        "height": 1000
+                    },
+                    {
+                        "image": "/assets/images/projects/hurdl/add-column.png",
+                        "type": "image",
+                        "width": 1600,
+                        "height": 1000
+                    },
+                    {
+                        "image": "/assets/images/projects/hurdl/lane-color.png",
+                        "type": "image",
+                        "width": 1600,
+                        "height": 1000
+                    },
+                    {
+                        "image": "/assets/images/projects/hurdl/share-lane.png",
+                        "type": "image",
+                        "width": 1600,
+                        "height": 1000
+                    },
+                    {
+                        "image": "/assets/images/projects/hurdl/archive.png",
+                        "type": "image",
+                        "width": 1600,
+                        "height": 560
+                    }
+                ]
+            },
+            "leeft": {
+                "title": "Leeft",
+                "thumb": {
+                    "image": "/assets/images/thumbs/no-bg/leeft.png",
+                    "invert": false
+                },
+                "description": "A workout tracker built on top of my own training history. Lifting sessions come out of TrainHeroic and cardio out of Fitbit; a Bun pipeline compiles both into one set of JSON artifacts, runs an LLM pass to classify and reconcile exercise names across years of inconsistent logging, and pushes the result to a CDN.<br><br>The site reads those artifacts directly &mdash; no server, no database. A mutable pointer file tells the app which build of the data is current, so new workouts appear without redeploying anything. On top of that sit a workout log and month calendar, training cycle and per-exercise detail pages, PR tracking, and cardio zone breakdowns. The same codebase also builds as a desktop app.",
+                "links": [
+                    {
+                        "label": "view site",
+                        "href": "https://leeft.web.app"
+                    },
+                    {
+                        "label": "view source",
+                        "href": "https://github.com/raedatoui/leeft-app"
+                    }
+                ],
+                "year": "2024 - present",
+                "tech": "Next.js, React, TypeScript, Bun, Zod, Claude API, Google Cloud Storage, Firebase Hosting, Tauri, pnpm monorepo"
+            },
+            "sickleandtorch": {
+                "title": "Sickle & Torch",
+                "thumb": {
+                    "image": "/assets/images/thumbs/no-bg/sickle-n-torch.webp",
+                    "invert": false
+                },
+                "description": "This is the companion site for Sickle & Torch, a tabletop RPG rules expansion compatible with 5e, Shadowdark, and Dungeon Crawl Classics.",
+                "links": [
+                    {
+                        "label": "view site",
+                        "href": "https://sickleandtorch.com"
+                    },
+                    {
+                        "label": "view source",
+                        "href": "https://github.com/raedatoui/sickle-and-torch"
+                    }
+                ],
+                "year": "2025-present",
+                "tech": "Next.js, Firebase, Mailgun"
+            },
             "minair": {
                 "title": "The Minair Report",
                 "thumb": {
@@ -154,8 +254,8 @@
         }
     },
     "agency": {
-        "label": "Agency",
-        "description": "Projects at digital agencies.",
+        "label": "Creative",
+        "description": "select projects at creative / design agencies",
         "work": {
             "prh": {
                 "title": "Physicians for Reproductive Health",
