@@ -10,7 +10,7 @@ interface EmployersProps {
 }
 
 export default function Employers({ data }: EmployersProps) {
-    let detuneCounter = 0;
+    let voiceCounter = 0;
 
     return (
         <Section id="employers">
@@ -23,11 +23,11 @@ export default function Employers({ data }: EmployersProps) {
 
                         <div className="grid grid-cols-2 justify-items-center gap-x-8 gap-y-8 md:flex md:flex-wrap md:justify-start md:gap-x-10 md:gap-y-12 items-start">
                             {section.experience.map((item, idx) => {
-                                detuneCounter++;
+                                voiceCounter++;
                                 const content = (
                                     <div className="w-40 flex flex-col items-center group">
                                         <div className="w-full h-20 flex items-center justify-center relative">
-                                            <EmployerLogo src={item.logo} name={item.name} logoStyle={item.logo_style} detune={detuneCounter} />
+                                            <EmployerLogo src={item.logo} name={item.name} logoStyle={item.logo_style} voiceIndex={voiceCounter} />
                                         </div>
 
                                         {/* Info below with hairline */}

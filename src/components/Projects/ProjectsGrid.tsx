@@ -147,7 +147,7 @@ export default function ProjectsGrid({ workData, initialProject }: ProjectsGridP
                                                     <ProjectCard
                                                         projectId={projectId}
                                                         project={project}
-                                                        detune={counter}
+                                                        voiceIndex={counter}
                                                         frameRate={portfolioFrameRate}
                                                         onSelect={handleProjectSelect}
                                                         isSelected={isSelected}
