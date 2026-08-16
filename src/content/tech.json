@@ -1,54 +1,39 @@
 [
     {
-        "name": "Linux"
-    },
-    {
-        "name": "AWS"
-    },
-    {
-        "name": "Serverless"
-    },
-    {
         "name": "React"
     },
     {
         "name": "Next.js"
     },
     {
-        "name": "Apollo Graphql"
-    },
-    {
-        "name": "Apache Kafka"
-    },
-    {
-        "name": "Neo4j"
-    },
-    {
-        "name": "Google Cloud"
-    },
-    {
-        "name": "Docker"
-    },
-    {
-        "name": "Jenkins"
-    },
-    {
-        "name": "Terraform"
+        "name": "Angular.js"
     },
     {
         "name": "Node.js"
     },
     {
-        "name": "Angular.js"
-    },
-    {
-        "name": "OpenGL"
+        "name": "GraphQL"
     },
     {
         "name": "WebGL"
     },
     {
+        "name": "WebGPU"
+    },
+    {
+        "name": "OpenGL"
+    },
+    {
         "name": "Three.js"
+    },
+    {
+        "name": "Cinder"
+    },
+    {
+        "name": "Processing"
+    },
+    {
+        "name": "Max/MSP Jitter"
     },
     {
         "name": "Ruby on Rails"
@@ -60,19 +45,46 @@
         "name": "FastAPI"
     },
     {
-        "name": "MySQL"
+        "name": "Postgres"
     },
     {
-        "name": "Postgres"
+        "name": "MySQL"
     },
     {
         "name": "MongoDB"
     },
     {
-        "name": "ImageMagic"
+        "name": "Neo4j"
+    },
+    {
+        "name": "Kafka"
+    },
+    {
+        "name": "Linux"
+    },
+    {
+        "name": "Docker"
+    },
+    {
+        "name": "Terraform"
+    },
+    {
+        "name": "Jenkins"
+    },
+    {
+        "name": "AWS"
+    },
+    {
+        "name": "GCP"
+    },
+    {
+        "name": "Serverless"
     },
     {
         "name": "FFMPEG"
+    },
+    {
+        "name": "ImageMagick"
     },
     {
         "name": "Arduino"
@@ -82,14 +94,5 @@
     },
     {
         "name": "FPGA"
-    },
-    {
-        "name": "Cinder"
-    },
-    {
-        "name": "Processing"
-    },
-    {
-        "name": "Max/MSP Jitter"
     }
 ]

@@ -3,25 +3,7 @@
         "name": "Typescript"
     },
     {
-        "name": "Python"
-    },
-    {
         "name": "Javascript"
-    },
-    {
-        "name": "Golang"
-    },
-    {
-        "name": "Ruby"
-    },
-    {
-        "name": "GL"
-    },
-    {
-        "name": "PHP"
-    },
-    {
-        "name": "SQL"
     },
     {
         "name": "HTML"
@@ -30,12 +12,33 @@
         "name": "CSS"
     },
     {
-        "name": "GLSL"
+        "name": "Python"
     },
     {
-        "name": "Bash"
+        "name": "Golang"
+    },
+    {
+        "name": "Ruby"
+    },
+    {
+        "name": "PHP"
     },
     {
         "name": "C"
+    },
+    {
+        "name": "GL"
+    },
+    {
+        "name": "GLSL"
+    },
+    {
+        "name": "WGSL"
+    },
+    {
+        "name": "SQL"
+    },
+    {
+        "name": "Bash"
     }
 ]

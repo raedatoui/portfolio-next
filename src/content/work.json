@@ -3,6 +3,22 @@
         "label": "Fun",
         "description": "freelance, collaborations, personal projects",
         "work": {
+            "listentomina": {
+                "title": "Listen to Mina",
+                "thumb": {
+                    "image": "/assets/images/thumbs/no-bg/mina-logo.png",
+                    "invert": true
+                },
+                "description": "Promo site for Mina, a Brooklyn dream-pop artist &mdash; a release catalog with embedded players, plus press pages for individual singles.",
+                "links": [
+                    {
+                        "label": "view site",
+                        "href": "https://listentomina.com"
+                    }
+                ],
+                "year": "2024 - present",
+                "tech": "Next.js, React, TypeScript, WebGPU, WGSL, WebGL2, GLSL, GSAP, CSS Modules, Firebase Hosting"
+            },
             "hurdl": {
                 "title": "Hurdl",
                 "thumb": {
