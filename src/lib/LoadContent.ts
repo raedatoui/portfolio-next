@@ -132,8 +132,10 @@ export const loadContent = (): ContentData => {
         // Post-process work data to prepend CDN_URL
         Object.values(work).forEach((section) => {
             Object.values(section.work).forEach((project) => {
-                // Update thumbnail image
-                project.thumb.image = `${CDN_URL}${project.thumb.image}`;
+                // Prefix CDN assets while preserving locally hosted thumbnails
+                if (project.thumb.image.startsWith('/assets/')) {
+                    project.thumb.image = `${CDN_URL}${project.thumb.image}`;
+                }
 
                 // Update gallery images
                 if (project.gallery) {
