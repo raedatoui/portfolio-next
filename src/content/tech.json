@@ -54,6 +54,9 @@
         "name": "MongoDB"
     },
     {
+        "name": "Firebase Firestore"
+    },
+    {
         "name": "Neo4j"
     },
     {
