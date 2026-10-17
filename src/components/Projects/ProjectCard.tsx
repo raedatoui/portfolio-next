@@ -36,7 +36,12 @@ export default function ProjectCard({ project, projectId, voiceIndex, frameRate,
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
         >
-            <div className="relative w-full">
+            <div
+                className="relative w-full"
+                style={{
+                    maskImage: projectId === 'jejunemoon' ? 'radial-gradient(ellipse closest-side, #000 85%, transparent 100%)' : undefined,
+                }}
+            >
                 {/* biome-ignore lint/performance/noImgElement: Needed for canvas pixelation effect */}
                 <img
                     ref={imgRef}

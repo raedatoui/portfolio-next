@@ -19,6 +19,22 @@
                 "year": "2026 - present",
                 "tech": "Next.js, React, TypeScript, Tailwind CSS, Payload CMS, Firebase Hosting"
             },
+            "jejunemoon": {
+                "title": "Jejune Moon",
+                "thumb": {
+                    "image": "/assets/images/thumbs/no-bg/jejunemoon.png",
+                    "invert": false
+                },
+                "description": "Website for my record label, with a release catalog, audio previews, and an interactive moon player.",
+                "links": [
+                    {
+                        "label": "view site",
+                        "href": "https://jejunemoon.com"
+                    }
+                ],
+                "year": "2026 - present",
+                "tech": "Next.js, React, TypeScript, WebGL2, GLSL, Tailwind CSS, Firebase Hosting"
+            },
             "listentomina": {
                 "title": "Listen to Mina",
                 "thumb": {
