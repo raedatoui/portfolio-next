@@ -54,9 +54,6 @@
         "name": "MongoDB"
     },
     {
-        "name": "Firebase Firestore"
-    },
-    {
         "name": "Neo4j"
     },
     {
@@ -78,7 +75,10 @@
         "name": "AWS"
     },
     {
-        "name": "GCP"
+        "name": "Google Cloud"
+    },
+    {
+        "name": "Firebase"
     },
     {
         "name": "Serverless"
