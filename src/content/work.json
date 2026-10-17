@@ -3,6 +3,22 @@
         "label": "Fun",
         "description": "freelance, collaborations, personal projects",
         "work": {
+            "tarekatoui": {
+                "title": "Studio Tarek Atoui",
+                "thumb": {
+                    "image": "/assets/images/thumbs/no-bg/tarekatoui.jpg",
+                    "invert": false
+                },
+                "description": "Website for Studio Tarek Atoui, presenting an ongoing inquiry into sound, carried across time and place. Grounded in fieldwork and exchanges with musical traditions, his practice develops through encounters with people and their environments.<br><br>The research page makes that duration visible: projects share a timeline, with each exhibition, performance, and workshop marking a moment in a longer investigation. Visitors can trace a project's development across years and places, follow its collaborators, and see how different lines of research unfold alongside one another. The landing page brings current and upcoming presentations into focus, connecting what is happening now to the continuity of the practice.",
+                "links": [
+                    {
+                        "label": "view site",
+                        "href": "https://tarekatoui.com"
+                    }
+                ],
+                "year": "2026 - present",
+                "tech": "Next.js, React, TypeScript, Tailwind CSS, Payload CMS, Firebase Hosting"
+            },
             "listentomina": {
                 "title": "Listen to Mina",
                 "thumb": {
