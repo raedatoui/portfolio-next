@@ -157,7 +157,7 @@ export default function ProjectsGrid({ workData, initialProject }: ProjectsGridP
                                             );
                                         })}
                                         {rowHasSelected && selectedProjectId && section.work[selectedProjectId] && (
-                                            <ProjectInlineDetail project={section.work[selectedProjectId]} />
+                                            <ProjectInlineDetail key={selectedProjectId} project={section.work[selectedProjectId]} />
                                         )}
                                     </div>
                                 );
