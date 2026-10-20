@@ -14,6 +14,10 @@
                     {
                         "label": "view site",
                         "href": "https://tarekatoui.com"
+                    },
+                    {
+                        "label": "view source",
+                        "href": "https://github.com/raedatoui/studiotarekatoui"
                     }
                 ],
                 "year": "2026 - present",
@@ -30,6 +34,10 @@
                     {
                         "label": "view site",
                         "href": "https://jejunemoon.com"
+                    },
+                    {
+                        "label": "view source",
+                        "href": "https://github.com/raedatoui/jejunemoon"
                     }
                 ],
                 "year": "2026 - present",

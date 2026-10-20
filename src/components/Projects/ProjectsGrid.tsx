@@ -18,6 +18,7 @@ export default function ProjectsGrid({ workData, initialProject }: ProjectsGridP
     const { portfolioFrameRate, selectedProjectId, setSelectedProjectId } = useApp();
     const columns = useProjectColumns();
     const isFirstMount = useRef(true);
+    const scrollBeforeOpen = useRef<number | null>(null);
 
     useEffect(() => {
         // Sync prop to context
@@ -77,9 +78,25 @@ export default function ProjectsGrid({ workData, initialProject }: ProjectsGridP
     }, [selectedProjectId, workData]);
 
     useEffect(() => {
+        if (selectedProjectId !== null || scrollBeforeOpen.current === null) return;
+
+        const scrollY = scrollBeforeOpen.current;
+        // Wait for the detail panel to be removed before restoring the page position.
+        const frame = requestAnimationFrame(() => {
+            window.scrollTo({ top: scrollY, behavior: 'smooth' });
+            scrollBeforeOpen.current = null;
+        });
+
+        return () => cancelAnimationFrame(frame);
+    }, [selectedProjectId]);
+
+    useEffect(() => {
         const handlePopState = () => {
             const match = window.location.pathname.match(/\/projects\/([^/]+)/);
             if (match?.[1]) {
+                if (selectedProjectId === null) {
+                    scrollBeforeOpen.current = window.scrollY;
+                }
                 setSelectedProjectId(match[1]);
             } else {
                 setSelectedProjectId(null);
@@ -88,7 +105,7 @@ export default function ProjectsGrid({ workData, initialProject }: ProjectsGridP
 
         window.addEventListener('popstate', handlePopState);
         return () => window.removeEventListener('popstate', handlePopState);
-    }, [setSelectedProjectId]);
+    }, [selectedProjectId, setSelectedProjectId]);
 
     useEffect(() => {
         const handleKeyDown = (event: KeyboardEvent) => {
@@ -107,9 +124,11 @@ export default function ProjectsGrid({ workData, initialProject }: ProjectsGridP
             setSelectedProjectId(null);
             window.history.pushState(null, '', '/');
         } else {
+            if (selectedProjectId === null) {
+                scrollBeforeOpen.current = window.scrollY;
+            }
             setSelectedProjectId(projectId);
             window.history.pushState(null, '', `/projects/${projectId}`);
-            // Optional: scroll to project?
         }
     };
 
