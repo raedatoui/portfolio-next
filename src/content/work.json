@@ -16,6 +16,10 @@
                         "href": "https://tarekatoui.com"
                     },
                     {
+                        "label": "view timeline",
+                        "href": "https://tarekatoui.com/research"
+                    },
+                    {
                         "label": "view source",
                         "href": "https://github.com/raedatoui/studiotarekatoui"
                     }
@@ -70,12 +74,7 @@
                     "invert": false
                 },
                 "description": "A to-do list / tracker built around how I actually work: lanes for each area of focus, columns inside them, and a Now strip that pulls the single task that matters to the top. Tasks carry markdown notes, everything drags and drops, and nothing is ever really gone &mdash; both archive and trash restore. A separate catalog view tracks side projects, their live/WIP status, and their loose ends.<br><br>One codebase ships twice: a static export on Firebase Hosting, and a signed macOS app built with Tauri that updates itself. Lanes can be shared with another account so two people work the same board, with Firestore rules enforcing who can read what.<br><br>The app is locked to an allowlist of accounts, so there is no public demo. Happy to give a walkthrough or add you if you want a closer look.",
-                "links": [
-                    {
-                        "label": "view source",
-                        "href": "https://github.com/raedatoui/hurdl"
-                    }
-                ],
+                "links": [],
                 "year": "2026 - present",
                 "tech": "Next.js, React, TypeScript, Firebase Auth, Firestore, Tauri, Rust, dnd-kit, Tailwind CSS",
                 "gallery": [
